@@ -47,7 +47,7 @@ section > div > p {
        -moz-justify-content: space-between;
             justify-content: space-between;
 }
-.demo1 > a {width: 32%;}
+.demo1 > a {width: 32%;max-height: 253px;}
 .demo1 > a img {
     display: block;
     max-width: 100%;
