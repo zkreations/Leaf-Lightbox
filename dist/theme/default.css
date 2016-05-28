@@ -1,0 +1,3 @@
+.lbox:target > img, .lbox:target > div {
+    border: 12px solid rgba(0,0,0,0.8);
+}
