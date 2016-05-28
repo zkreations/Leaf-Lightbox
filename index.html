@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>Leaf Lightbox</title>	
+<!-- leafbox 1.00 | Daniel Abel - http://zkreations.com | Free to use under terms of MIT license -->
+	<link type="image/x-icon" rel="icon" href="http://www.zkreations.com/favicon.ico" />
+	<!--reset y aspecto-->
+	<link type="text/css" rel="stylesheet" href="libs/css/estilos.min.css"/>
+	<link type="text/css" rel="stylesheet" href="libs/css/display.css"/>
+	
+	<!--leafbox-->
+	<link type="text/css" rel="stylesheet" href="leafbox.css"/>
+	
+	<!--tema-->
+	<link type="text/css" rel="stylesheet" href="dist/theme/white.css"/>			
+</head>
+
+<body>
+<main>
+<header>
+    <h1>Leaf Lightbox</h1>
+    <span>Ventana modal responsive sin javascript</span>
+</header>
+<section>
+<div>
+
+<h2>Imagen</h2>
+
+<div class="demo1">
+<!-- ejemplo imagen 1 -->
+<a href="#img1"><img src="img/min/img-01.jpg"/></a>
+<!-- ejemplo imagen 2 -->
+<a href="#img2"><img src="img/min/img-02.jpg"/></a>
+<!-- ejemplo imagen 3 -->
+<a href="#img3"><img src="img/min/img-03.jpg"/></a>
+
+<!--identificador-->
+<figure id="img1" class="lbox fade">
+   <img src="img/img-01.jpg"/>
+   <a href="#_"></a>
+</figure>
+<figure id="img2" class="lbox bounce">
+   <img src="img/img-02.jpg"/>
+   <a href="#_"></a>
+</figure>
+<figure id="img3" class="lbox flip">
+   <img src="img/img-03.jpg"/>
+   <a href="#_"></a>
+</figure>
+</div>
+
+
+<h2>Video</h2>
+<p>Pausar el video antes de cerrar la ventana modal, de lo contrario, continuará reproduciendo.</p>
+<div class="demo">
+<!-- ejemplo video 1 -->
+<a class="btn" href="#vid1">youtube</a>
+<!-- ejemplo video 2 -->
+<a class="btn" href="#vid2">vimeo</a>
+
+<!--identificador-->
+<div id="vid1" class="lbox flip">
+   <div class="vid">
+   <iframe src="https://www.youtube.com/embed/m96tYpEk1Ao?autoplay=0&autohide=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+   </div>
+   <a href="#_"></a>
+</div>
+<div id="vid2" class="lbox bounce">
+   <div class="vid">
+   <iframe src="https://player.vimeo.com/video/68536792?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
+   </div>
+   <a href="#_"></a>
+</div>
+</div>
+
+<h2>Enlace</h2>
+<p>No es necesario incluir el mismo "box" 2 veces, si necesitas abrir la misma ventana en diferentes partes del documento, solo tienes que agregar un enlace directo.</p>
+<div class="demo">
+<!-- ejemplo video 1 -->
+<a href="#img1">http://zkreations.github.io/Leaf-Lightbox/#img1</a><br>
+
+</div>
+
+<h2>Bloque de Texto</h2>
+<div class="demo">
+<!-- ejemplo texto 1 -->
+<a class="btn" href="#text1">Leer el siguiente documento</a>
+
+<!--identificador-->
+<div id="text1" class="lbox bounce">
+   <div class="text">
+       <h1>Documento</h1>
+       <p>Leaf Lightbox es una ventana modal desarrollado utilizando unicamente css puro. Soporta videos (por el momento solo probado con vimeo y youtube), imágenes y bloques de textos. Es compatible con todos los navegadores actuales y la mayoria de los antiguos, aunque algunos efectos visuales podrian no funcionar correctamente si este ultimo no da soporte a keyframes &amp; animation de css3.</p>
+   </div>
+   <a href="#_"></a>
+</div>
+</div>
+
+
+</div>
+</section>
+
+<section class="details">
+<div>
+    <ul>
+        <li><i class="material-icons">&#xE1B1;</i><h3>Responsive</h3><span>Diseño adaptable para cada dispositivo.</span></li>
+        <li><i class="material-icons">&#xE87E;</i><h3>Sin Javascript</h3><span>Desarrollado con CSS Puro sin utilizar javascript.</span></li>
+        <li><i class="material-icons">&#xE80B;</i><h3>Compatible</h3><span>Google Chrome, Opera, Firefox, IE 9+, Edge, Safari.</span></li>
+    </ul>
+</div>
+</section>
+</main>
+<footer>
+   <a href="https://github.com/zkreations/SheetSlider" title="repositorio github"><img src="libs/github.png" width="64" height="64"></a>
+</footer>
+
+
+</body>
+</html>
